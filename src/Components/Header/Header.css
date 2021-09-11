@@ -1,0 +1,27 @@
+.container {
+    background: #22366F;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    height: 8rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.headerText {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.headerText > h1{
+    margin-left: 4rem;
+}
+
+.headerText > p{
+    align-self: flex-end;
+    font-size: 10px;
+}
